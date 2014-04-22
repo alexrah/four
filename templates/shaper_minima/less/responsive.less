@@ -1,0 +1,362 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 20010 - 2013 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+*/
+
+.responsive {
+
+	/* Small desktop */
+	@media (min-width: 980px) and (max-width: 1199px) { 
+		#sp-search{
+			.search{
+				input{
+					width: 180px;
+				}
+			}
+		}
+		//Page title
+		#sp-title{
+			h1{
+				font-size:38px !important;
+			}
+		}
+	}
+
+	/* Portrait tablet to landscape and desktop */
+	@media (min-width: 768px) and (max-width: 979px) {
+		//Header
+		#sp-header-wrapper{
+			padding-top: 20px;
+		}
+
+		#sp-menu-wrapper{
+			//Menu
+			#sp-menu{
+				margin-top: -10px;
+				#sp-moble-menu {
+					top: -15px;
+				}
+			}
+		}
+
+		//Slideshow
+		#sp-slideshow-wrapper{
+			.minima-slider{
+				height: 380px;
+				.slider-title{
+					h1{
+						font-size:26px;
+						line-height:normal;
+					}
+				}
+				.slider-text{
+					font-size:14px;
+					line-height:18px;
+				}
+			}
+		}
+
+		h2{
+			font-size: 40px;
+			line-height: 50px;
+		}
+
+		//Services
+		.services {
+			h3{
+				font-size: 18px;
+				line-height: 22px;
+			}
+			p{
+				line-height: 150%;
+			}
+			img{
+				width: 70%;
+			}
+		}
+
+		//Our clients
+		#sp-user-middle-wrapper{
+			img{
+				width: 400px;
+			}
+		}
+
+		#sp-bottom{
+			h3.bottom-h3{
+				font-size: 36px;
+				line-height: 36px;
+			}
+			//Acymailing
+			.acymailing_form{
+				span.acyfield_email{
+					width:50% !important;
+				}
+				p.acysubbuttons{
+					input{
+						margin-left:70px;
+					}
+				}
+			}
+
+			//Social Icons
+			.sp-social-share a i{
+				width: 32px !important;
+				height: 32px !important;
+				line-height: 32px !important;
+			}
+		}
+
+		/* ---------- Start Footer ------------ */
+		#sp-footer-wrapper {
+			font-size: 12px; 
+			#sp-footer2	{
+				.social-icons-container{
+					margin-right: 20px;
+					a.social-icon{
+						width: 20px;
+						height: 20px;
+						line-height: 20px;
+						font-size: 12px;
+					}	
+				}
+				.sp-totop{
+					margin-top:0px;
+					margin-left: 10px;
+				}
+
+				ul.nav li{
+					margin-left: 5px;
+				}
+			}
+		}		
+		//Page title
+		#sp-title{
+			h1{
+				font-size:38px !important;
+			}
+		}
+		//Portfolio
+		ul.gallery{
+			margin:-5px;
+			li{
+				width:50% !important;
+				img{
+					width:100%;
+				}
+			}
+		}
+
+		//Mod chrome
+		.module{
+			h3{
+				font-size: 20px;
+			}
+
+			//K2
+			.k2LatestCommentsBlock{
+				img{
+					width: 32px !important;
+					margin-top: 5px;
+				}
+				.media-body{
+					line-height: 150%;
+				}
+			}
+		}		
+	}	
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+
+		&body {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		 .container {
+			padding:0 10px;
+			max-width:480px;
+			min-width:280px;
+		}
+
+		//Header
+		#sp-header-wrapper{
+			padding-top: 20px;
+		}
+
+		#sp-menu-wrapper{
+			//Menu
+			#sp-menu{
+				margin-top: -10px;
+				#sp-moble-menu {
+					top: -15px;
+				}
+			}
+		}
+
+		//Slideshow
+		#sp-slideshow-wrapper{
+			.minima-slider{
+				height: 240px;
+				.slider-content{
+					margin-top: 10px;
+				}
+				.slider-title{
+					h1{
+						font-size:22px;
+						line-height:normal;
+					}
+				}
+				.minima-more{
+					font-size: 12px;
+					padding: 6px 10px;
+				}
+			}
+			.slider-controllers ul li{
+				width: 50px !important;
+			}
+		}
+
+		h2{
+			font-size: 40px;
+			line-height: 50px;
+		}
+
+		//Services
+		.services {
+			h3{
+				font-size: 18px;
+				line-height: 22px;
+			}
+			p{
+				line-height: 150%;
+			}
+			img{
+				width: 48px;
+			}
+		}
+
+		//Our clients
+		#sp-user-middle-wrapper{
+			text-align: center;
+			.pull-left{
+				margin: 0;
+			}
+			img{
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+
+		#sp-bottom{
+			text-align: center;
+			h3.bottom-h3{
+				font-size: 36px;
+				line-height: 36px;
+			}
+		}
+
+		/* ---------- Start Footer ------------ */
+		#sp-footer-wrapper {
+			font-size: 12px;
+			text-align: center;
+			#sp-footer2	{
+				text-align: center;
+				.social-icons-container{
+					margin-right: 20px;
+					a.social-icon{
+						width: 20px;
+						height: 20px;
+						line-height: 20px;
+						font-size: 12px;
+					}	
+				}
+				.sp-totop{
+					margin-top:0px;
+					margin-left: 10px;
+				}
+
+				ul.nav {
+					float: none;
+					li{
+						margin-left: 5px;
+					}
+				}
+			}
+		}	
+		//Portfolio
+		ul.gallery{
+			margin:-5px;
+			li{
+				width:100% !important;
+				img{
+					width:100%;
+				}
+			}
+		}
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+
+		//Slideshow
+		#sp-slideshow-wrapper{
+			.minima-slider{
+				height: 180px;
+				.slider-content{
+					margin-top: 10px;
+				}
+				.slider-title{
+					h1{
+						font-size:16px;
+						line-height:normal;
+					}
+				}
+				.minima-more{
+					font-size: 12px;
+					padding: 4px 5px;
+				}
+			}
+			.slider-controllers ul li{
+				width: 30px !important;
+			}
+		}
+
+		//Services
+		.services {
+			text-align: center;
+			img{
+				width: auto;
+			}
+		}
+		//Portfolio
+		ul.gallery{
+			margin:-5px;
+			li{
+				width:100% !important;
+				img{
+					width:100%;
+				}
+			}
+		}
+		.btn-more{
+			padding:5px;
+			font-size:14px;
+		}
+		//Service Page
+		.sp-service-page{
+			.sp-blocknumber{
+				background-position:0 72px !important;
+			}
+		}		
+	}
+}
+
+//Fixed width
+.fixed{
+	.hidden-desktop{
+		display:none;
+	}
+}
