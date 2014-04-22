@@ -213,4 +213,4 @@ div.itemComments ul.itemCommentsList li span.commentLink a {
 div.itemCommentsForm h3 {
   color: #ff6600;
 }
-";s:5:"files";a:3:{s:74:"/home/teddydemo/public_html/four/templates/shaper_minima/less/presets.less";i:1372292488;s:76:"/home/teddydemo/public_html/four/templates/shaper_minima/less/variables.less";i:1367207622;s:73:"/home/teddydemo/public_html/four/templates/shaper_minima/less/mixins.less";i:1367545686;}s:7:"updated";i:1398128324;}
+";s:5:"files";a:3:{s:74:"/home/teddydemo/public_html/four/templates/shaper_minima/less/presets.less";i:1372292488;s:76:"/home/teddydemo/public_html/four/templates/shaper_minima/less/variables.less";i:1367207622;s:73:"/home/teddydemo/public_html/four/templates/shaper_minima/less/mixins.less";i:1367545686;}s:7:"updated";i:1398181181;}

@@ -284,7 +284,8 @@ body .body-innerwrapper {
   background: url(../images/logo.png) no-repeat 0 50%;
 }
 #sp-header-wrapper .logo-wrapper .logo-text {
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 44px;
 }
 #sp-header-wrapper .logo-wrapper .logo-slogan {
   font-size: 11px;
